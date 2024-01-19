@@ -21,7 +21,7 @@ print(titles[0])
 print(prices[0])
 
 #Definir une en-tête
-header = ['Title', 'Price_including_tax']
+header = ['Title', 'Price_including_tax'] #Fournir un agent utilisateur ? 
 
 with open("data.csv", "w") as file_csv:
     writer = csv.writer(file_csv, delimiter=",")
